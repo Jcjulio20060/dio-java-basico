@@ -10,12 +10,12 @@ Este Repositório contém exercícios e exemplos de código para pratir e aprend
 
 ## Tópicos Abordados
 1. Arrays:
-- Criação e manipulação de arrays.
-- Ordenação e busca em arrays.
+    - Criação e manipulação de arrays.
+    - Ordenação e busca em arrays.
 2. Loops:
-- Exemplos de loops for, while, e do-while.
+    - Exemplos de loops for, while, e do-while.
 3. Conversão de Tipos:
-- Conversão entre tipos primitivos e objetos.
+    - Conversão entre tipos primitivos e objetos.
 
 ## Como executar
 ### Pré Requisitos

@@ -1,7 +1,7 @@
 # dio-java-basico
 Repositório para armazenar todos os códigos de aprendizado na linguagem de programação Java
 
-# 📽 Projeto de Estudos em Java
+# 📘 Projeto de Estudos em Java
 
 Este Repositório contém exercícios e exemplos de código para pratir e aprender Java. Ele inclui tópicos como manipulação de arrays, conversão de tipos, loops, e muito mais.
 
@@ -9,6 +9,7 @@ Este Repositório contém exercícios e exemplos de código para pratir e aprend
 
 O projeto está organizado da seguinte maneira:
 
+<p>
 📦 java-study-project
 } 📁 src
 | } 📁 arrays
@@ -18,6 +19,7 @@ O projeto está organizado da seguinte maneira:
 | } 📁 Conversion
 | | } 📜TypeConversion.java
 } 📜README.md
+<\p>
 
 ## Tópicos Abordados
 1. Arrays:

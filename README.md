@@ -1,25 +1,12 @@
-# dio-java-basico
-Repositório para armazenar todos os códigos de aprendizado na linguagem de programação Java
-
-# 📘 Projeto de Estudos em Java
+# 📚 Projeto de Estudos em Java
 
 Este Repositório contém exercícios e exemplos de código para pratir e aprender Java. Ele inclui tópicos como manipulação de arrays, conversão de tipos, loops, e muito mais.
 
-## 📚 Estrutura de Dados
+## 🏛 Estrutura de Dados
 
-O projeto está organizado da seguinte maneira:
-
-```
-📦 java-study-project
-} 📁 src
-| } 📁 arrays
-| | } 📜ArrayManipulation.java
-| } 📁 loops
-| | } 📜ForLoopExample.java
-| } 📁 Conversion
-| | } 📜TypeConversion.java
-} 📜README.md
-```
+- [x]  Arrays
+- [x]  Loops
+- [x]  Conversion
 
 ## Tópicos Abordados
 1. Arrays:
@@ -34,27 +21,15 @@ O projeto está organizado da seguinte maneira:
 ### Pré Requisitos
 
 - [Java 11+](https://www.oracle.com/java/technologies/downloads/#java11) instalado.
-- [Maven](https://maven.apache.org/) para gerenciamento de dependências.
+- [Intellij IDE](https://www.jetbrains.com/pt-br/idea/) Para o executar o projeto
 
 ## Passos para executar o projeto
 > [!WARNING]
 > Neste tópico, você precisar ter cuidado com o que vai executar na sua máquina.
-1. Clone o repositório:
-```
-git clone https://github.com/Jcjulio20060/dio-java-basico.git
-```
-2. Navegue até a pasta do projeto:
-```
-cd Java-study-project
-```
-3. Compile o código:
-```
-mvn compile
-```
-4. Execute um exemplo específico:
-```
-mvn exec:java -Dexec.mainClass="com.seuprojeto.arrays.ArrayManipulation"
-```
+1. Sincronize com sua conta Github.
+2. Escolha o projeto que deseja executar.
+3. Abra o arquivo principal .java com a classe Main.
+4. Por fim, execute o código
 
 ## Dependências
 

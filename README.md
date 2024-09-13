@@ -9,10 +9,6 @@ Este Repositório contém exercícios e exemplos de código para pratir e aprend
 
 O projeto está organizado da seguinte maneira:
 
-> [!WARNING]
-> Neste tópico, você precisar ter cuidado com o que vai executar na sua máquina.
-
-```
 📦 java-study-project
 } 📁 src
 | } 📁 arrays
@@ -22,7 +18,6 @@ O projeto está organizado da seguinte maneira:
 | } 📁 Conversion
 | | } 📜TypeConversion.java
 } 📜README.md
-```
 
 ## Tópicos Abordados
 1. Arrays:
@@ -40,6 +35,8 @@ O projeto está organizado da seguinte maneira:
 - [Maven](https://maven.apache.org/) para gerenciamento de dependências.
 
 ## Passos para executar o projeto
+> [!WARNING]
+> Neste tópico, você precisar ter cuidado com o que vai executar na sua máquina.
 1. Clone o repositório:
 ```
 git clone https://github.com/Jcjulio20060/dio-java-basico.git

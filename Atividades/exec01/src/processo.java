@@ -1,25 +1,22 @@
 public class processo {  // Por convenção, nomes de classes começam com letra maiúscula.
     float valorProduto;
-    String formaPagamento;
-    int result;
-    public void verificarFormaPagamento() {  // Método para verificar a forma de pagamento.
-        if (formaPagamento.equals("dinheiro") || formaPagamento.equals("pix")) {
-            // Lógica para pagamento em dinheiro ou pix
-            valorProduto -= (valorProduto * 0.15);
-        } else if (formaPagamento.equals("credito") && result == 1) {
-            // Lógica para pagamento no crédito e result == 1
-            valorProduto -= (valorProduto * 0.1);
-        } else if (formaPagamento.equals("credito") && result >= 3) {
-            // Lógica para pagamento no crédito e result == 2
-            valorProduto += (valorProduto * 0.1);
-            valorProduto /= result;
-        } else {
-            valorProduto /= result;
-        }
-        if(result >= 2){
-            System.out.println("O valor do produto parcelado deu: " + valorProduto);
-        } else{
-            System.out.println("O valor do produto à vista deu: " + valorProduto);
-        }
+    int quant;
+
+    public void PIX(){
+        valorProduto -= valorProduto * 0.15;
+        System.out.println("O valor final da compra deu: " + valorProduto);
+    }
+    public void CARTAO(){
+        valorProduto -= valorProduto * 0.1;
+        System.out.println("O valor final da compra deu: " + valorProduto);
+    }
+    public void CARTAO2(){
+        valorProduto /= 2;
+        System.out.println("O valor final da compra parcelado em 2 vezes deu: " + valorProduto);
+    }
+    public void CARTAON(){
+        valorProduto += valorProduto * 0.10;
+        valorProduto /= quant;
+        System.out.println("O valor final da compra parcelado em " + quant + " vazes deu: " + valorProduto);
     }
 }
